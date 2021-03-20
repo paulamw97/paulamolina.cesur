@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="css/estilogeneral.css">
+	<title>Demo of onClick and on double click ondblclick event using div layer</title>
+	<style type="text/css">
+		div {
+			position: absolute;
+			left: 400px;
+			top: 100px;
+			background-color: #306080;
+			width: 300px;
+			padding: 10px;
+			color: white;
+			border: #0101cf 2px dashed;
+			display: none;
+		}
+	</style>
+
+	<script language="JavaScript">
+		function setVisibility(id, visibility) {
+			document.getElementById(id).style.display = visibility;
+		}
+	</script>
+
+<body>
+	<div id='my_page2'
+		style="z-index: 2; position: relative; right: 0px; top: 10px; background-color: #cccc33; width: 180px; padding: 10px; color: white; border: #0000cc 2px  dashed;display: inline; "
+		onClick="setVisibility('sub1', 'inline');" ondblclick="setVisibility('sub1','none');">
+		Un click para abrir, dos para cerrar
+	</div>
+
+	<div id="sub1">
+		<video  controls poster="media/video1.jpg">
+			<source src="media/videocompleto.webm" type="video/webm">
+			<source src="media/videocompleto.ogg" type="video/ogg">
+			<source src="media/videocompleto.mp4" type="video/mp4">
+		  </video>
+	</div>
+
+</body>
+
+</html>

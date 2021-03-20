@@ -1,0 +1,44 @@
+#recuadro{
+	 background-color:yellow;
+	 height: 340px;
+	 width: 100%;
+}
+#caja1{
+      border: 20px solid orangered;
+      background-color:red;
+      height: 100px;
+      width: 40%;
+      padding: 10px;
+      margin: 10px;
+      float: left;
+      text-align: center;
+
+    }
+#caja2{
+	  border-top: 10px dashed #000000;
+  	  border-right: 10px double #33FF45;
+ 	  border-bottom:  10px dotted #33FFFB;
+  	  border-left: 10px solid #FB0808;
+ 
+      background-color:green;
+      height: 240px;
+      width: 40%;
+      padding: 10px;
+      margin: 10px;
+      float: right;
+      text-align: center;
+
+    }
+#caja0{
+      border: white 8px inset;
+      background-color:blue;
+      height: 100px;
+      width: 40%;
+      padding: 10px;
+      margin: 10px;
+      float: left;
+      text-align: center;
+      
+
+
+    }

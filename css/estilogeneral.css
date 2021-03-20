@@ -1,0 +1,63 @@
+@media (max-width:4000px){
+	
+	header {
+	  	padding: 15px;
+	  	text-align: center;
+	  	background: #53F2FF;
+	  	color: black;
+		font-size: 30px;
+		height: 150px;
+	}
+
+	#lis{
+		
+		height: 100%;
+		float: left;
+
+	}
+
+
+	
+	footer {
+	  margin-top: 10px;	
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: #53F2FF;
+	  color: black;
+	  text-align: center;
+	}
+
+
+}
+
+@media (max-width:1000px){
+
+	header {
+	  	padding: 15px;
+	  	text-align: center;
+	  	background: #FF3030;
+	  	color: white;
+	  	font-size: 30px;
+	}
+
+	#lis{
+		width: 60px;
+		height: 50px;
+		float: left;
+
+	}
+	footer {
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: #FF3030;
+	  color: white;
+	  text-align: center;
+	}
+
+}
+
+       

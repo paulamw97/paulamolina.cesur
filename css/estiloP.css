@@ -1,0 +1,49 @@
+@media (max-width:4000px){
+	
+
+
+	
+	#calcu{
+		margin-top: 5%;
+		float: left;
+		margin-left: 10%;
+
+
+
+	}
+	#borde{
+		width: 700px;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+
+	#video1{
+		
+		margin-left: 10%;
+		width: 5px;
+		height: 5px;
+	}
+	#tabla{
+		padding-left: 10%;
+	}
+	#pincha{
+		
+		margin-top: 10%;
+		margin-left: 10%;
+	}
+	#otros{
+		margin-right: 20%;
+		margin-top: -3%;
+		text-align: right;
+	}
+	#folio {
+		margin-left: 58%;
+
+	}
+	
+}
+
+@media (max-width:1000px){
+
+
+}
